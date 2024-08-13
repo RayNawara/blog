@@ -1,3 +1,14 @@
 @import 'bootstrap/scss/bootstrap';
 @import 'bootstrap-icons/font/bootstrap-icons';
 @import 'actiontext.css';
+
+trix-editor#article_content.trix-content {
+  min-height: 300px; /* Or a fixed height */
+}
+/* In your application.bootstrap.scss or a separate stylesheet */
+#article_title {
+  width: 100%; /* Or set a specific width */
+  min-height: 48px; /* Adjust as needed for two lines */
+  resize: vertical; /* Allow vertical resizing, if desired */
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
