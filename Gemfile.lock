@@ -80,7 +80,7 @@ GEM
     bindex (0.8.1)
     bootsnap (1.18.4)
       msgpack (~> 1.2)
-    brakeman (6.1.2)
+    brakeman (6.2.1)
       racc
     builder (3.3.0)
     capybara (3.40.0)
@@ -206,8 +206,6 @@ GEM
       activesupport (= 7.2.0)
       bundler (>= 1.15.0)
       railties (= 7.2.0)
-    rails-deprecated_sanitizer (1.0.4)
-      activesupport (>= 4.2.0.alpha)
     rails-dom-testing (2.2.0)
       activesupport (>= 5.0.0)
       minitest
@@ -338,7 +336,6 @@ DEPENDENCIES
   pg (~> 1.1)
   puma (>= 5.0)
   rails (~> 7.2.0)
-  rails-deprecated_sanitizer
   redis (>= 4.0.1)
   rubocop-rails-omakase
   selenium-webdriver
